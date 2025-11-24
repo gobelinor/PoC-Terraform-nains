@@ -1,13 +1,21 @@
 # PoC-Terraform-nginx
 
-# Initialiser Terraform
+Initialiser Terraform
+```
 terraform init
+```
 
-# Vérifier la configuration
+Vérifier la configuration
+```
 terraform plan
+```
 
-# Déployer
+Déployer
+```
 terraform apply
+```
 
-# Pour détruire les ressources plus tard
+Pour détruire les ressources plus tard
+```
 terraform destroy
+```
