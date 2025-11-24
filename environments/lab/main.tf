@@ -6,7 +6,7 @@ data "openstack_images_image_v2" "ubuntu" {
 
 # Pour la région Paris (EU-WEST-PAR), essayez ces flavors
 data "openstack_compute_flavor_v2" "flavor" {
-  name = "win-b2-7-flex"  # ou essayez "b2-7-flex"
+  name = "win-b2-7-flex"  
 }
 
 # Créer ou récupérer une clé SSH
