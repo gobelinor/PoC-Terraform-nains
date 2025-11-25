@@ -36,9 +36,8 @@ resource "openstack_compute_instance_v2" "instance" {
                   </style>
               </head>
               <body>
-                  <h1>🚀 Hello from Terraform deployed Nginx!</h1>
+                  <h1> Hello from Terraform deployed Nginx!</h1>
                   <div class="info">
-                      <p><strong>Instance:</strong> $(hostname)</p>
                       <p><strong>Deployed with:</strong> Terraform + OVH Public Cloud</p>
                   </div>
               </body>
